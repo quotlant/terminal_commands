@@ -19,7 +19,14 @@
 
 - `git remote -v` : this command is used to check on the existing connections on the local repository.
 
-- `git push -u origin main`
+- `git add`: this command is used to add changes or staging (preparing) changes.
+
+- `git add .`: used to add more than 1 change.
+
+- `git status`: lists the changes that have been made.
+
+- `git push -u origin main` : pushing for the FIRST time
+- `git push` : the rest of the pushes
 
 - `git config --global user.name " " `
 
@@ -27,6 +34,4 @@
 
 - `git remote set-url origin `
 
-- `git add`: this command is used to add changes or staging (preparing) changes.
-
-- `git commit`:
+- `git commit -m " "`: taking a "Snapshot" of the code at that current time.
